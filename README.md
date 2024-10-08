@@ -30,3 +30,25 @@ function mystery(n) {
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+## Plagarism Statement
+
+All exercises must contain the following statement:
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
+
+## Note
+I am attempting this from scratch, I will compare it to my last semester repository and make any corrections needed base on that.
+
+## Answer
+
+Just looking at the code first I believe we need to note 3 main things:
+
+It will teminate with $T(n)=1$ which is our base case, mystery is called 3 times with $n/3$, and the inner loops looping through $n^5$ times.
+
+Combining all this knowledge we get a relation that looks like $T(n)=3T(\frac{n}{3}) + n^5$
+
+
+
