@@ -64,4 +64,6 @@ Now writing in terms of I for iterations
 
 => $T(n) = 3^{i}(\frac{n}{3^{i}}) + \frac{n^{5}}{3^{4(i-1)}} + \frac{n^{5}}{3^{4(i-2)}} + \frac{n^{5}}{3^{4(i-3)}} + ... + n^{5}$
 
+Looking at the different growth rates we see here, it is clear that the dominant growth rate is $n^{5}$ We can infer from this, that the bound for $O$ is $n^{5}$.
+
 
