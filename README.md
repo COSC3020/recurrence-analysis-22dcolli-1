@@ -50,5 +50,18 @@ It will teminate with $T(n)=1$ which is our base case, mystery is called 3 times
 
 Combining all this knowledge we get a relation that looks like $T(n)=3T(\frac{n}{3}) + n^5$
 
+Then we start looking for a reoccurring pattern to become evident.
+
+=> $=3(3T(\frac{n}{9})+(\frac{n}{3})^{5})+n^{5}$
+
+=> $=9T(\frac{n}{9}) + n^{5} + 3(\frac{n}{3})^{5}$
+
+=> $=9(3T(\frac{n}{27})+(\frac{n^{5}}{9}))+n^{5}+\frac{n^{5}}{3^{4}}$
+
+=> $=27T(\frac{n}{27}) + n^{5} + \frac{n^{5}}{3^{4}}+ \frac{n^{5}}{9^{4}}$
+
+Now writing in terms of I for iterations
+
+=> $T(n) = 3^{i}(\frac{n}{3^{i}}) + \frac{n^{5}}{3^{4(i-1)}} + \frac{n^{5}}{3^{4(i-2)}} + ... + n^{5}$
 
 
