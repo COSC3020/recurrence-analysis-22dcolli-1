@@ -62,6 +62,6 @@ Then we start looking for a reoccurring pattern to become evident.
 
 Now writing in terms of I for iterations
 
-=> $T(n) = 3^{i}(\frac{n}{3^{i}}) + \frac{n^{5}}{3^{4(i-1)}} + \frac{n^{5}}{3^{4(i-2)}} + ... + n^{5}$
+=> $T(n) = 3^{i}(\frac{n}{3^{i}}) + \frac{n^{5}}{3^{4(i-1)}} + \frac{n^{5}}{3^{4(i-2)}} + \frac{n^{5}}{3^{4(i-3)}} + ... + n^{5}$
 
 
