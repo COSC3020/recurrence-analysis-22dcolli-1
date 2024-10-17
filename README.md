@@ -75,7 +75,7 @@ To achieve the base case($T(1)$) we assume i would be $log_{3}(n)$
 
 => $=n+(3^{4}*n)+(3^{8}*n)+(3^{12}*n)...+n^{5}$
 
-Looking at these $n$ terms, the dominant growth rate is $n^{5}$ We can infer from this, that the bound for this is $O(n^{5})$
+Looking at these $n$ terms, we see many different rates of growth as there are more terms, but the most imoactful growth rate is $n^{5}$ because all the other growth rates are smaller than that so we look at the largest on, fro, we can infer that the bound for this is $O(n^{5})$
 
 
 
