@@ -79,7 +79,7 @@ Looking at these $n$ terms, we see many different rates of growth as there are m
 
 ## New Update:
 
-We focus on $n^{5}$ because is it the dominant term, we dont drop the other terms, be we focus on $n^{5}$
+We focus on $n^{5}$ because is it the dominant term, we dont drop the other terms, be we focus on $n^{5}$ because it grows fastest.
 
 
 
